@@ -1,0 +1,18 @@
+# package overview
+
+library(dplyr)
+library(data.table)
+library(tidyverse)
+library(readr)
+library(ggplot2)
+library(reshape2)
+library(janitor)
+library(tidyr)
+library("readxl")
+library(R2jags)
+library(readstata13)
+library(magrittr)
+library(coda)
+library(mcmc)
+library(bayestestR)
+library(gridExtra)
