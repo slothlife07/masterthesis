@@ -1,17 +1,11 @@
 # masterthesis
 The workspace contains all relevant information of my Master thesis: "Introducing Bayesian Regression Methods to Dutch Election Forecasting". 
 
-The data set used for the analysis is an aggregation of solely open-source data. The File [Inser file name] summarizes all sources and for which data they were used. Furher, [insert file name] contains the code to create the final data set. 
-- Code Baseline Models
-- Code set up model & validation
-- Application to 2021
-
 # Structure Repisotory
-1.	Data cleaning for auxiliary variables
-2.	Model Code
-3.	Baseline models code
-4.	Results / Validation / Plots 
-5.	(Main) Raw data
-6.	Data index of origin
-
-
+The repository contains:
+1. *raw election data* - csv files with european and national election results in the netherlands since 1959
+2. *raw data other* - csv for some of the auxiliary variables, overview of provinces and the history of cabinets 
+3. *data set* - data set used for the analysis and was created by the author based on solely open-source data and the combined election results
+4. *model development* - codes for the complete data preparation & cleaning process as well as the final code used for the predictions
+5. *plots* - code for all plots used in the analysis  
+ 
