@@ -98,7 +98,7 @@ national.2017.df <- as.data.frame(matrix(data = NA, nrow = 1600, ncol = 12))
 ## fill df with 600 vote count predictions per province
 for (i in (1:12)){
   for(s in 1:1600){
-    national.2017.df[s,i] <- run.2017$BUGSoutput$sims.list$Y.pred[s,i]*valid.votes.2017[i,1]*0.9
+    national.2017.df[s,i] <- run.2017$BUGSoutput$sims.list$Y.pred[s,i]*valid.votes.2017[i,1]
   }
 }
 
